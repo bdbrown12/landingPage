@@ -1,9 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    color: #F9FAF8;
-    outline: red solid;
     box-sizing: border-box;
+    border: solid red 2px;
 }
 
 .container{
@@ -206,4 +205,32 @@ body{
     font-weight: bold;
     display: flex;
     justify-content: end;
+}
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-background{
+    display: flex;
+    width: 75%;
+    height: 400px;
+    margin: 2rem;
+    padding: 5rem;
+}
+
+.action-content{
+    display: flex;
+}
+
+.action-banner{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.action-column{
+
 }
