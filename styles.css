@@ -186,3 +186,24 @@ body{
     margin: .5rem;
     color: black;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 8rem;
+    gap: 1rem;
+}
+
+.quote-content{
+    font-size: 36px;
+    font-style: italic;
+    color: black;
+}
+
+.quote-author{
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
