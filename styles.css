@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: red solid 2px;
 }
 
 .container{
@@ -271,8 +270,9 @@ header{
 }
 
 .banner-button button:hover{
+    border:solid white;
     background-color: #4285F4;  
-    color: white;  
+    color:white;  
 }
 
 .footer-container{
