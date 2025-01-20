@@ -12,18 +12,20 @@
     gap: 10px;
 }
 
-header div h2{
-    padding-left: 10px;
-    flex: 2;
-    color: #F9FAF8;
-}
-
 body{
     background-color: aliceblue;
     font-family: 'Roboto';
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+navbar{
+    color: #F9FAF8;
+}
+
+header{
+    color: #F9FAF8;
 }
 
 .header{
@@ -190,7 +192,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 8rem;
+    padding: 10%;
     gap: 1rem;
 }
 
@@ -211,26 +213,71 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 2rem 0 2rem 0;
 }
 
 .action-background{
+    background-color: #4285F4; /* Blue background color */
+    border-radius: 10px;
     display: flex;
-    width: 75%;
-    height: 400px;
-    margin: 2rem;
-    padding: 5rem;
-}
-
-.action-content{
-    display: flex;
+    width: 80%;
+    padding: 2rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
 .action-banner{
     display: flex;
-    flex-direction: column;
-    background-color: blue;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.action-column{
+.banner-button{
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.banner-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+
+}
+
+.banner-subtext{
+    font-size: 1rem;
+    color: #e8e8e8;
+}
+
+.banner-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-button button {
+    background-color: white;
+    color: #4285F4;
+    border: 1px solid #4285F4;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.banner-button button:hover{
+    background-color: #4285F4;  
+    color: white;  
 }
