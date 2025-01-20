@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: solid red 2px;
+    border: red solid 2px;
 }
 
 .container{
@@ -234,13 +234,6 @@ header{
     width: 100%;
 }
 
-.banner-button{
-    margin: auto;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
 .banner-content{
     display: flex;
     flex-direction: column;
@@ -261,7 +254,7 @@ header{
 
 .banner-button {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 
@@ -281,3 +274,13 @@ header{
     background-color: #4285F4;  
     color: white;  
 }
+
+.footer-container{
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
